@@ -55,6 +55,10 @@
     <Compile Include="PostEdit.cs" />
     <Compile Include="PostListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReplyCreate.cs" />
+    <Compile Include="ReplyDetail.cs" />
+    <Compile Include="ReplyEdit.cs" />
+    <Compile Include="ReplyListItem.cs" />
     <Compile Include="UserCreate.cs" />
     <Compile Include="UserDetail.cs" />
     <Compile Include="UserEdit.cs" />
