@@ -42,11 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PostCreate.cs" />
+    <Compile Include="PostDetail.cs" />
+    <Compile Include="PostEdit.cs" />
+    <Compile Include="PostListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserCreate.cs" />
     <Compile Include="UserDetail.cs" />
     <Compile Include="UserEdit.cs" />
     <Compile Include="UserListItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sociality.Data\Sociality.Data.csproj">
+      <Project>{ef379a9f-6986-412e-9624-1a2f6d3d92af}</Project>
+      <Name>Sociality.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
