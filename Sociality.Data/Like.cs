@@ -11,9 +11,13 @@ namespace Sociality.Data
     public class Like
     {
         [Key]
-        public Post LikedPost { get; set; }
+        public int LikeId { get; set; }
+        [ForeignKey(nameof(Post))]
+        public int PostId { get; set; }
+        public virtual Post Post { get; set; }
 
-        [Required]
-        public User Liker { get; set; }
+        [ForeignKey(nameof(TheUser))]
+        public Guid UserId { get; set; }
+        public virtual TheUser TheUser { get; set; }
     }
 }
