@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sociality.Data", "Sociality.Data\Sociality.Data.csproj", "{EF379A9F-6986-412E-9624-1A2F6D3D92AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sociality.Models", "Sociality.Models\Sociality.Models.csproj", "{658F4828-A388-4B6B-B18A-5B59C00DEF1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sociality.API", "Sociality.API\Sociality.API.csproj", "{4A7FF2EC-4F2F-4592-9F16-19DBAEE39CE4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF379A9F-6986-412E-9624-1A2F6D3D92AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF379A9F-6986-412E-9624-1A2F6D3D92AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF379A9F-6986-412E-9624-1A2F6D3D92AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF379A9F-6986-412E-9624-1A2F6D3D92AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658F4828-A388-4B6B-B18A-5B59C00DEF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658F4828-A388-4B6B-B18A-5B59C00DEF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658F4828-A388-4B6B-B18A-5B59C00DEF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658F4828-A388-4B6B-B18A-5B59C00DEF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7FF2EC-4F2F-4592-9F16-19DBAEE39CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7FF2EC-4F2F-4592-9F16-19DBAEE39CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7FF2EC-4F2F-4592-9F16-19DBAEE39CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7FF2EC-4F2F-4592-9F16-19DBAEE39CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
