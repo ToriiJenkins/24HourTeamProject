@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sociality.Data", "Sociality
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sociality.Models", "Sociality.Models\Sociality.Models.csproj", "{658F4828-A388-4B6B-B18A-5B59C00DEF1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sociality.Services", "Sociality.Services\Sociality.Services.csproj", "{6003751F-74DF-4E12-866B-1B9298B1052C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{658F4828-A388-4B6B-B18A-5B59C00DEF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{658F4828-A388-4B6B-B18A-5B59C00DEF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{658F4828-A388-4B6B-B18A-5B59C00DEF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6003751F-74DF-4E12-866B-1B9298B1052C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6003751F-74DF-4E12-866B-1B9298B1052C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6003751F-74DF-4E12-866B-1B9298B1052C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6003751F-74DF-4E12-866B-1B9298B1052C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
