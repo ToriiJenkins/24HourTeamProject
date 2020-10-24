@@ -11,7 +11,7 @@ namespace Sociality.Models
     {
         public int CommentId { get; set; }
         public string Text { get; set; }
-        public TheUser Author { get; set; }
-        public Post CommentPost { get; set; }
+        public TheUser TheUser { get; set; }
+        public Post Post { get; set; }
     }
 }
