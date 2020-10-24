@@ -11,6 +11,9 @@ namespace Sociality.Models
     public class LikeCreate
     {
         [Required]
-        public TheUser Liker { get; set; }
+        public int PostId { get; set; }
+
+        [Required]
+        public Guid UserId { get; set; }
     }
 }

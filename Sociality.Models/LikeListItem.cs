@@ -9,7 +9,7 @@ namespace Sociality.Models
 {
     public class LikeListItem
     {
-        public Post LikedPost { get; set; }
-        public TheUser Liker { get; set; }
+        public int PostId { get; set; }
+        public Guid UserId { get; set; }
     }
 }
