@@ -9,7 +9,7 @@ namespace Sociality.Models
 {
     public class LikeDetail
     {
-        public Post LikedPost { get; set; }
-        public TheUser Liker { get; set; }
+        public TheUser TheUser { get; set; }
+        public Post Post { get; set; }
     }
 }

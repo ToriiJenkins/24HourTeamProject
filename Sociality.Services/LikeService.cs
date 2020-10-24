@@ -22,8 +22,8 @@ namespace Sociality.Services
             var entity =
                 new Like()
                 {
-                    PostId = model.PostId,
-                    UserId = model.UserId
+                    UserId = model.UserId,
+                    //PostId = model.PostId
                 };
 
             using (var ctx = new ApplicationDbContext())
@@ -40,13 +40,16 @@ namespace Sociality.Services
                 var query =
                     ctx
                         .Likes
-                        .Where(e => e.UserId == _userId)
+                        //.Where(e => e.UserId == _userId)
                         .Select(
                             e =>
                             new LikeListItem
                             {
+                                LikeId = e.LikeId,
+                                UserId = e.UserId,
+                                TheUser = e.Post.TheUser,
                                 PostId = e.PostId,
-                                UserId = e.UserId
+                                Post = e.Post
                             }
                         );
 
@@ -66,8 +69,8 @@ namespace Sociality.Services
                 return
                     new LikeDetail
                     {
-                        LikedPost = entity.Post,
-                        Liker = entity.TheUser
+                        //Post = entity.Post,
+                        TheUser = entity.TheUser
                     };
             }
         }
@@ -81,7 +84,7 @@ namespace Sociality.Services
                        .Likes
                        .Single(e => e.LikeId == model.LikeId);
 
-                entity.PostId = model.PostId;
+                //entity.PostId = model.PostId;
                 entity.UserId = model.UserId;
 
                 return ctx.SaveChanges() == 1;
