@@ -12,12 +12,13 @@ namespace Sociality.Data
     {
         [Key]
         public int LikeId { get; set; }
-        [ForeignKey(nameof(Post))]
-        public int PostId { get; set; }
-        public virtual Post Post { get; set; }
 
         [ForeignKey(nameof(TheUser))]
         public Guid UserId { get; set; }
         public virtual TheUser TheUser { get; set; }
+
+        [ForeignKey(nameof(Post))]
+        public int PostId { get; set; }
+        public virtual Post Post { get; set; }
     }
 }
