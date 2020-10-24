@@ -41,7 +41,7 @@ namespace Sociality.Services
                 var query =
                     ctx
                         .TheUsers
-                        .Where(e => e.UserId == _userId)
+                        //.Where(e => e.UserId == _userId)
                         .Select(
                             e =>
                             new UserListItem
