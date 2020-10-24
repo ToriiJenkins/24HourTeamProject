@@ -73,7 +73,8 @@ namespace Sociality.Services
                         PostId = entity.PostId,
                         Title = entity.Title,
                         Text = entity.Text,
-                        UserId = entity.UserId
+                        //UserId = entity.UserId,
+                        TheUser = entity.TheUser
                     };
             }
         }

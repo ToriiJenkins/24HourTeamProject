@@ -23,7 +23,7 @@ namespace Sociality.Services
                 new Like()
                 {
                     UserId = model.UserId,
-                    //PostId = model.PostId
+                    PostId = model.PostId
                 };
 
             using (var ctx = new ApplicationDbContext())

@@ -27,6 +27,13 @@ namespace Sociality.API.Controllers
             return Ok(posts);
         }
 
+        public IHttpActionResult Get(int id)
+        {
+            PostService postService = CreatePostService();
+            var posts = postService.GetPostById(id);
+            return Ok(posts);
+        }
+
         public IHttpActionResult Post(PostCreate post)
         {
             if (!ModelState.IsValid)
