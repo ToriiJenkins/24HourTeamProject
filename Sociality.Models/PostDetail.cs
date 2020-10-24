@@ -12,6 +12,6 @@ namespace Sociality.Models
         public int PostId { get; set; }
         public string Title { get; set; }
         public string Text { get; set; }
-        public User Author { get; set; }
+        public TheUser Author { get; set; }
     }
 }

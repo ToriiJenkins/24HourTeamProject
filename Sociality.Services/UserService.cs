@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Sociality.Services
 {
-    class UserService
+    public class UserService
     {
         private readonly Guid _userId;
 

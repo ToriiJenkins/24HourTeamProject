@@ -59,10 +59,6 @@
     <Compile Include="UserService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sociality.API\Sociality.API.csproj">
-      <Project>{4a7ff2ec-4f2f-4592-9f16-19dbaee39ce4}</Project>
-      <Name>Sociality.API</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Sociality.Data\Sociality.Data.csproj">
       <Project>{ef379a9f-6986-412e-9624-1a2f6d3d92af}</Project>
       <Name>Sociality.Data</Name>

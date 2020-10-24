@@ -207,6 +207,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -310,6 +311,14 @@
     <ProjectReference Include="..\Sociality.Data\Sociality.Data.csproj">
       <Project>{ef379a9f-6986-412e-9624-1a2f6d3d92af}</Project>
       <Name>Sociality.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sociality.Models\Sociality.Models.csproj">
+      <Project>{658f4828-a388-4b6b-b18a-5b59c00def1b}</Project>
+      <Name>Sociality.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sociality.Services\Sociality.Services.csproj">
+      <Project>{6003751f-74df-4e12-866b-1b9298b1052c}</Project>
+      <Name>Sociality.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

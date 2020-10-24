@@ -10,6 +10,6 @@ namespace Sociality.Models
     public class LikeEdit
     {
         public Post LikedPost { get; set; }
-        public User Liker { get; set; }
+        public TheUser Liker { get; set; }
     }
 }

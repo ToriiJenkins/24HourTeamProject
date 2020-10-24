@@ -14,7 +14,7 @@ namespace Sociality.Models
         public string Text { get; set; }
 
         [Required]
-        public User Author { get; set; }
+        public TheUser Author { get; set; }
 
         [Required]
         public Post CommentPost { get; set; }
